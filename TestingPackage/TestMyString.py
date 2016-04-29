@@ -41,3 +41,20 @@ class TestMyString(TestCase):
     def test_invert(self):
         s = MyString("Apple")
         self.assertEquals("elppA", s.invert())
+
+       ###########################################
+        #def getSubstring(self, start, end):
+         #   sub=""
+          #  try:
+           #     for a in range(start,end):
+         #           sub=sub+self.str[a]
+        #
+
+          #  except IndexError:
+           #     return("index out of bounds"
+         #   return sub
+
+      #  def getCharList(self):
+
+       #     self.assertException
+        #    self.assertAlmost
