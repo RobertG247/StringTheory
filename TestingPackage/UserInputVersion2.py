@@ -5,8 +5,6 @@ def get_small(array):
         if tiny > array[x]:
             tiny = array[x]
     return tiny
-
-
 def get_big(array):
     huge = array[0]
     length = len(array)
@@ -14,8 +12,6 @@ def get_big(array):
         if huge < array[x]:
             huge = array[x]
     return huge
-
-
 def get_small_big():
     print("")
     print("The Biggest vs Smallest Comparison Game")
@@ -38,11 +34,8 @@ def get_small_big():
                 valid_input = True
         except:
             print("Please enter a real number!")
-
     smallest = get_small(my_list)
     print(smallest)
     biggest = get_big(my_list)
     print(biggest)
-
-
 get_small_big()
